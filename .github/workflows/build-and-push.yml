@@ -29,5 +29,5 @@ jobs:
         with:
           context: .  # Use the Dockerfile from the root directory
           push: true  # Tell it to push the image
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/vladikogan/flask-api:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/flask-api:latest
           # Example: vladikogan/flask-api:latest
